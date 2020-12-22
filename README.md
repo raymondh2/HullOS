@@ -21,8 +21,8 @@ git p7zip-full python3 curl
 
 ## Compiling source
 ```bash
-git clone https://github.com/raymondh2/MainsailOS.git
-cd MainsailOS/
+git clone https://github.com/raymondh2/HullOS.git
+cd HullOS/
 make build
 ```
 
@@ -33,6 +33,6 @@ make distclean - Clean up the source image and trigger a new download
 ```
 
 ### Build layout
-MainsailOS/emulation - Contains dependencies for emulation testing  
-MainsailOS/src/image - Contains our base raspbian image  
-MainsailOS/src/workspace - Created during build, and output for compiled images
+HullOS/emulation - Contains dependencies for emulation testing  
+HullOS/src/image - Contains our base raspbian image  
+HullOS/src/workspace - Created during build, and output for compiled images
